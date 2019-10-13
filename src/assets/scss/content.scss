@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+.app-content{
+  flex-grow: 1;
+  background-color: $color-fafafa;
+  .app-content-header {
+    height: 40px;
+    min-height: 40px;
+    padding: 0px 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    &.app-content-header-flex-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      .app-content-header-left {
+        display: flex;
+        align-items: center;
+      }
+      .app-content-header-right {
+        .lock-btn {
+          margin-right: 5px;
+          .locked-icon {
+            color: $color-f493;
+          }
+        }
+      }
+    }
+  }
+  .app-content-body {
+    flex-grow: 1;
+    overflow: auto;
+    .app-content-body-left {
+
+    }
+    .app-content-body-right {
+
+    }
+  }
+}

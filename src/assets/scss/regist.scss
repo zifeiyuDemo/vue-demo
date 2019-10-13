@@ -1,0 +1,18 @@
+.regist{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(240, 242, 245);
+  .regist-header{
+    height: 50px;
+    max-height: 50px;
+    min-height: 50px;
+    line-height: 50px;
+    background-color: rgb(240, 242, 245);
+  }
+  .regist-body{
+    margin: 0 auto;
+    padding-top: 160px;
+  }
+}
